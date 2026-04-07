@@ -1,13 +1,13 @@
-package main.java.com.corbo.service.impl;
+package com.corbo.service.impl;
 
-import com.example.documentprocessor.dto.DocumentUploadResponse;
-import com.example.documentprocessor.kafka.DocumentProducer;
-import com.example.documentprocessor.model.DocumentMetadata;
-import com.example.documentprocessor.model.DocumentStatus;
-import com.example.documentprocessor.repository.DocumentRepository;
-import com.example.documentprocessor.service.DocumentService;
-import com.example.documentprocessor.service.StorageService;
-import com.example.documentprocessor.utils.FileParserUtil;
+import com.corbo.dto.DocumentUploadResponse;
+import com.corbo.kafka.DocumentProducer;
+import com.corbo.model.DocumentMetadata;
+import com.corbo.model.DocumentStatus;
+import com.corbo.repository.DocumentRepository;
+import com.corbo.service.DocumentService;
+import com.corbo.service.StorageService;
+import com.corbo.utils.FileParserUtil;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.codec.multipart.FilePart;
@@ -59,8 +59,7 @@ public class DocumentServiceImpl implements DocumentService {
 
                     return new DocumentUploadResponse(
                             saved.getId(),
-                            "Document uploaded successfully"
-                    );
+                            "Document uploaded successfully");
                 });
     }
 

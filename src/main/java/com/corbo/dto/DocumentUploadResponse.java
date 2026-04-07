@@ -1,4 +1,4 @@
-package main.java.com.corbo.dto;
+package com.corbo.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

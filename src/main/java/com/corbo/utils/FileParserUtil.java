@@ -1,4 +1,4 @@
-package main.java.com.corbo.utils;
+package com.corbo.utils;
 
 import lombok.extern.slf4j.Slf4j;
 

@@ -1,6 +1,6 @@
-package main.java.com.corbo.service.impl;
+package com.corbo.service.impl;
 
-import com.example.documentprocessor.service.StorageService;
+import com.corbo.service.StorageService;
 import org.springframework.stereotype.Service;
 import reactor.core.publisher.Mono;
 

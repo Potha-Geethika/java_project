@@ -1,4 +1,4 @@
-package main.java.com.corbo.kafka;
+package com.corbo.kafka;
 
 import org.springframework.cloud.stream.function.StreamBridge;
 import org.springframework.stereotype.Component;

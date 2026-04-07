@@ -1,7 +1,7 @@
-package main.java.com.corbo.controller;
+package com.corbo.controller;
 
-import com.example.documentprocessor.dto.AnalyticsResponse;
-import com.example.documentprocessor.service.AnalyticsService;
+import com.corbo.dto.AnalyticsResponse;
+import com.corbo.service.AnalyticsService;
 import org.springframework.web.bind.annotation.*;
 import reactor.core.publisher.Mono;
 

@@ -1,7 +1,7 @@
-package main.java.com.corbo.controller;
+package com.corbo.controller;
 
-import com.example.documentprocessor.dto.DocumentUploadResponse;
-import com.example.documentprocessor.service.DocumentService;
+import com.corbo.dto.DocumentUploadResponse;
+import com.corbo.service.DocumentService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.codec.multipart.FilePart;
 import org.springframework.web.bind.annotation.*;
@@ -17,8 +17,7 @@ public class DocumentController {
     @PostMapping("/upload")
     public Mono<DocumentUploadResponse> uploadDocument(
             @RequestPart("file") FilePart file,
-            @RequestHeader("user") String user
-    ) {
+            @RequestHeader("user") String user) {
 
         return service.uploadDocument(file, user);
     }

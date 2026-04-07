@@ -1,4 +1,4 @@
-package main.java.com.corbo.service;
+package com.corbo.service;
 
 import reactor.core.publisher.Mono;
 

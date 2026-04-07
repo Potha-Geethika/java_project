@@ -1,6 +1,6 @@
-package main.java.com.corbo.service;
+package com.corbo.service;
 
-import com.example.documentprocessor.dto.AnalyticsResponse;
+import com.corbo.dto.AnalyticsResponse;
 import reactor.core.publisher.Mono;
 
 public interface AnalyticsService {

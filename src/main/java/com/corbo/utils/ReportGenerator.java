@@ -1,4 +1,4 @@
-package main.java.com.corbo.utils;
+package com.corbo.utils;
 
 import com.lowagie.text.Document;
 import com.lowagie.text.Paragraph;

@@ -1,4 +1,4 @@
-package main.java.com.corbo.exception;
+package com.corbo.exception;
 
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
