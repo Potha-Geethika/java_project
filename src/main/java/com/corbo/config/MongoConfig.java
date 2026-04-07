@@ -1,4 +1,4 @@
-package main.java.com.corbo.config;
+package com.corbo.config;
 
 import org.springframework.context.annotation.Configuration;
 
